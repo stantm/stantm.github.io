@@ -1,0 +1,53 @@
+/* For AdvanceHTML Class
+Stan Yee
+CNIT 132A
+
+*/
+
+/* formating body display */
+body {
+    background-color: #8FBC8F;
+}
+
+/* displaying icon after link */
+section a {
+    background: url(./homework1/intmark.png) center right no-repeat;
+    padding-right: 2.2em;
+}
+section a[href$='.pdf'] {
+    background: transparent url(./homework1/pdf.png) center right no-repeat;
+    padding-right: 2.2em;
+}   
+section a[href$='.htm'], section a[href$='.html'] {
+    background: transparent url(./homework1/browser.png) center right no-repeat;
+    padding-right: 2.8em;
+}
+
+/* formatting nav bar */
+#nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav_bar li {
+    float: left;
+}
+
+#nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav_bar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#nav_bar .active {
+    background-color: #4CAF50;
+}
