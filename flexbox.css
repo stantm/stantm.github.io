@@ -1,0 +1,45 @@
+.container { 
+     display: flex;
+     flex-direction: column;
+     font-size: .83em;
+     font-weight: bold;
+     text-align: center;
+}
+.header {
+     background-color: tomato;
+     padding: .65em;
+}
+.bodyItem {
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+}
+.footer {
+    background-color: palegreen;
+    padding: .65em;
+}
+.container div {
+    flex: 1; 
+} 
+.aside_1 {
+    background: yellow;
+    color: black;
+    padding: .65em;
+}
+.article {
+    background: darkblue;
+    text-align: left;
+    color: white;
+    padding: 1.25em .6em 1.25em;
+}
+.challenge {
+    background: violet; 
+    text-align: left;
+    color: blue;
+    padding: 1.25em .6em 1.25em;
+}
+.aside_2 {
+    background: pink;
+    color: black;
+    padding: .65em;
+}
